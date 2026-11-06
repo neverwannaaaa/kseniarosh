@@ -1,17 +1,71 @@
-<section>
-  <div class="section-title">
-    <span></span> Where to go after class
-  </div>
-  <div class="card-grid">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UTMN Student City Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Вот эта строчка связывает сайт с твоим style.css: -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>UTMN Student City Guide</h1>
+      <p class="subhead">Explore top spots around Tyumen State University</p>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Places & Map</a>
+        <a href="about.html">Why These Places</a>
+      </nav>
+    </header>
 
-    <div class="place-card">
-      <h3>🚶‍♂️ Dzerzhinskogo Street</h3>
-      <div class="tag">pedestrian street</div>
-      <p>The city's main walking street: cozy cafés, street musicians, historic facades and the atmosphere of old Tyumen. Perfect for evening strolls and meeting new people.</p>
-      <div class="address">Dzerzhinskogo St.</div>
+    <section>
+      <div class="section-title">
+        <span></span> Where to go after class
+      </div>
+      <div class="card-grid">
+
+        <div class="place-card">
+          <h3>🚶‍♂️ Dzerzhinskogo Street</h3>
+          <div class="tag">pedestrian street</div>
+          <p>The city's main walking street: cozy cafés, street musicians, historic facades and the atmosphere of old Tyumen. Perfect for evening strolls and meeting new people.</p>
+          <div class="address">Dzerzhinskogo St.</div>
+        </div>
+
+        <div class="place-card">
+          <h3>🍸 Bullwar Lounge</h3>
+          <div class="tag">bar · lounge</div>
+          <p>A stylish spot with cocktails, soft sofas and pleasant music. Students and the creative crowd often gather here. Especially popular on weekends.</p>
+          <div class="address">Gertsena St., 63</div>
+        </div>
+
+        <div class="place-card">
+          <h3>🎡 Amusement Park</h3>
+          <div class="tag">entertainment</div>
+          <p>A Ferris wheel, carousels and plenty of activities for a great mood. Located in the city center next to Tsvetnoy Bulvar — a perfect place to unwind with friends.</p>
+          <div class="address">Tsvetnoy Bulvar</div>
+        </div>
+
+        <div class="place-card">
+          <h3>🌊 Promenade</h3>
+          <div class="tag">embankment</div>
+          <p>A scenic embankment along the Tura River with walking areas, observation decks and cafés. Especially beautiful at sunset. A favorite spot for photos and leisurely walks.</p>
+          <div class="address">Tura River embankment</div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="map-placeholder" id="map-container">
+      <h2><span class="map-icon">🗺️</span> Map for you</h2>
+      <p>Interactive city guide map for UTMN students</p>
     </div>
 
-    <div class="place-card">
-      <h3>🍸 Bullwar Lounge</h3>
-      <div class="tag">bar · lounge</div>
-      <p>A stylish spot with cocktails, soft sofas and pleasant music. Students and the creative crowd often gather here. Especially popular on weekends.</p>
+    <div class="footer-note">
+      🌿 Guide for Tyumen State University students · all places within walking distance or a short ride
+    </div>
+  </div>
+</body>
+</html>
